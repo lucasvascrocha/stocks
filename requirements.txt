@@ -13,3 +13,4 @@ streamlit-option-menu==0.3.2
 urllib3==1.26.9
 yahooquery==2.2.15
 yfinance==0.1.72
+webdriver_manager == 3.4.2
