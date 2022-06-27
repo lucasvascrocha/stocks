@@ -14,3 +14,4 @@ urllib3==1.26.9
 yahooquery==2.2.15
 yfinance==0.1.72
 webdriver_manager == 3.4.2
+pymongo==3.11.3
