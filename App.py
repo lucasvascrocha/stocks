@@ -61,31 +61,31 @@ def main():
 
  # ----------------------------------PAGES -------------------------------------------------------------     
     if n_sprites == "Home":
-        #local_css("style_1.css")      
+        local_css("style_1.css")      
         home.initial_page()
     
     if n_sprites == "Login":
-        #local_css("style_login.css")      
+        local_css("style_login.css")      
         login.login_section()
 
     if n_sprites == "Análise técnica":
-        #local_css("style_1.css")      
+        local_css("style_1.css")      
         pag1.analise_tecnica_fundamentalista()
 
     if n_sprites == "Comparar ações":
-        #local_css("style_2.css")   
+        local_css("style_2.css")   
         pag2.comparacao_ativos()
 
     if n_sprites == "Análise fundamentalista":
-        #local_css("style_3.css")   
+        local_css("style_3.css")   
         pag3.descobrir_ativos()
 
     if n_sprites == "Rastrear ações":
-        #local_css("style_4.css")   
+        local_css("style_4.css")   
         pag4.rastreador()     
 
     if n_sprites == "Previsão de lucro":
-        #local_css("style_5.css")  
+        local_css("style_5.css")  
         pag5.analise_carteira()
         
 if __name__ == '__main__':
