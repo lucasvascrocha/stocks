@@ -43,10 +43,10 @@ def comparacao_ativos():
                 st.title('Comparação de ativos')
                 st.subheader('Escolha 4 ativos para comparar')
                 codigo_nome = pd.read_excel('data/classification_b3.xlsx')
-                nome_do_ativo1 = st.selectbox('Nome do 1º ativo', (codigo_nome['TICKER']),key=1 )
-                nome_do_ativo2 = st.selectbox('Nome do 2º ativo', (codigo_nome['TICKER']),key=2)
-                nome_do_ativo3 = st.selectbox('Nome do 3º ativo', (codigo_nome['TICKER']),key=3 )
-                nome_do_ativo4 = st.selectbox('Nome do 4º ativo', (codigo_nome['TICKER']),key=4 )
+                nome_do_ativo1 = st.selectbox('Nome do 1º ativo', (codigo_nome['Código']),key=1 )
+                nome_do_ativo2 = st.selectbox('Nome do 2º ativo', (codigo_nome['Código']),key=2)
+                nome_do_ativo3 = st.selectbox('Nome do 3º ativo', (codigo_nome['Código']),key=3 )
+                nome_do_ativo4 = st.selectbox('Nome do 4º ativo', (codigo_nome['Código']),key=4 )
                 style.space(1)
                 
         if nome_do_ativo4 != "":

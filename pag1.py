@@ -33,7 +33,7 @@ def analise_tecnica_fundamentalista():
         st.subheader('Escolha o ativo que deseja analisar e pressione enter')  
         #nome_do_ativo = st.text_input('Nome do ativo ex: PETR4, VALE3, WEGE3...')
         codigo_nome = pd.read_excel('data/classification_b3.xlsx')
-        nome_do_ativo = st.selectbox('Esoolha a ação que deseja analisar', (codigo_nome['TICKER']) )
+        nome_do_ativo = st.selectbox('Esoolha a ação que deseja analisar', (codigo_nome['Código']) )
 
     style.space(1)
 

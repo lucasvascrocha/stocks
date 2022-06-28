@@ -38,13 +38,13 @@ def local_css(file_name):
 def main():
 
     #css comum para todas páginas (menu)
-    #local_css("style_0.css")  
+    local_css("style_0.css")  
 
     #esconder botão de menu e marca dágua no rodapé
-    #style.hidden_menu_and_footer()
+    style.hidden_menu_and_footer()
 
     #cabeçalho detalhe superior da página 
-    #style.headerstyle()
+    style.headerstyle()
 
  # ----------------------------------MENU -------------------------------------------------------------   
 
